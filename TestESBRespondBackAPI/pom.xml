@@ -71,7 +71,7 @@
               <arguments>
                 <argument>clean</argument>
                 <argument>install</argument>
-                <argument>-Dmaven.test.skip=${maven.test.skip}</argument>
+                <argument>-Dmaven.test.skip=true</argument>
               </arguments>
             </configuration>
           </execution>
@@ -86,7 +86,7 @@
               <workingDirectory>${project.build.directory}</workingDirectory>
               <arguments>
                 <argument>deploy</argument>
-                <argument>-Dmaven.test.skip=${maven.test.skip}</argument>
+                <argument>-Dmaven.test.skip=true</argument>
               </arguments>
             </configuration>
           </execution>
