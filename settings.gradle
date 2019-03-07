@@ -1,4 +1,4 @@
-rootProject.name ='test-esb-jenkins-integration'
+rootProject.name ='esb-jenkins-integration'
 
 include 'TestESBRespondBackAPI'
 include 'TestESBRespondBackCAPP'
