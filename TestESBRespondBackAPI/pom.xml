@@ -47,7 +47,7 @@
             <id>package</id>
             <phase>package</phase>
             <goals>
-              <goal>exec</goal>
+              <goal>java</goal>
             </goals>
             <configuration>
               <executable>mvn</executable>
@@ -63,7 +63,7 @@
             <id>install</id>
             <phase>install</phase>
             <goals>
-              <goal>exec</goal>
+              <goal>java</goal>
             </goals>
             <configuration>
               <executable>mvn</executable>
@@ -79,7 +79,7 @@
             <id>deploy</id>
             <phase>deploy</phase>
             <goals>
-              <goal>exec</goal>
+              <goal>java</goal>
             </goals>
             <configuration>
               <executable>mvn</executable>
